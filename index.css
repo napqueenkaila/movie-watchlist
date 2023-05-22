@@ -1,0 +1,170 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    max-width: 550px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 208px;
+    background: #0E0E0E;
+    background-image: url("images/banner.png");
+    color: #FFFFFF;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+a {
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* SEARCH BAR */
+#search-container {
+    position: absolute;
+    top: 185px;
+    display: flex;
+    max-width: 450px;
+    width: 90%;
+}
+
+.fa-magnifying-glass {
+    color: #9CA3AF;
+    padding: 10px 13px;
+    position: absolute;
+}
+
+#search-bar {
+    width: 100%;
+    /* height: 38px; */
+    padding: 10px 40px;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid #D1D5DB;
+    border-right: .5px solid #D1D5DB;
+
+}
+
+#search-btn {
+    width: 120px;
+    padding: 9px 11px 9px 17px;
+    background: #F9FAFB;
+    border: 1px solid #D1D5DB;
+    border-radius: 0px 6px 6px 0px;
+}
+
+/* EMPTY DISPLAY */
+#container {
+    text-align: center;
+    margin-top: 195px;
+}
+
+#container p {
+    font-weight: 700;
+    color: #DFDDDD;
+    font-size: 18px;
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inner-container a {
+    color: #363636;
+}
+
+
+/* MOVIE CARD */
+
+#movie-container {
+    margin-top: 40px;
+}
+
+#card {
+    display: flex;
+    height: fit-content;
+    margin: 20px 45px;
+}
+
+.outer-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    gap: 20px
+}
+
+.inner-card {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    width: 90%;
+    border-bottom: 1.5px solid #E5E7EB;
+}
+
+.poster {
+    height: 147px;
+    align-self: center;
+}
+
+.star-icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 8px;
+    margin-right: 4px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.genre {
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.rating,
+.runtime,
+.genre,
+.watchlist {
+    font-weight: 400;
+    font-size: 12px;
+    color: #111827;
+}
+
+.watchlist-div {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.plot {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7280;
+    line-height: 20px;
+}
